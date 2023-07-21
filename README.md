@@ -1,8 +1,6 @@
-# Automation web with Playwright
+# Automation web with Playwright and gitHub actions
 
 Base site: [Automation Demo Site](https://demo.automationtesting.in/)
-
-## Etiquetas
 
 [![PLAYWRIGHT](https://img.shields.io/badge/License-playwright-green.svg)](https://playwright.dev/)
 [![cucumber](https://img.shields.io/badge/license-cucumber-green.svg)](https://www.npmjs.com/package/@cucumber/cucumber)
