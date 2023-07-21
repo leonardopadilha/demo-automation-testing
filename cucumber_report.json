@@ -6,7 +6,7 @@
         "description": "",
         "id": "access-the-index-page;fill-email",
         "keyword": "Scenario Outline",
-        "line": 13,
+        "line": 17,
         "name": "Fill email",
         "steps": [
           {
@@ -14,46 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 813752499
+              "duration": 670253399
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 7,
+            "line": 11,
             "name": "I visit a home page",
             "match": {
               "location": "tests\\step-definitions\\homeContext.step.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 4013269500
+              "duration": 4229538400
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 8,
+            "line": 12,
             "name": "I fill the email form with \"teste@teste.com.br\"",
             "match": {
               "location": "tests\\step-definitions\\homeContext.step.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 752235299
+              "duration": 710367899
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 13,
             "name": "I'm redirected to the registration page",
             "match": {
               "location": "tests\\step-definitions\\homeContext.step.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 1726277000
+              "duration": 2918177399
             }
           },
           {
@@ -61,19 +61,108 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 663195899
+              "duration": 657836899
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@emailForm",
+            "line": 3
+          },
+          {
+            "name": "@fillEmail",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-the-index-page;empty-email",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Empty email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 850441399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I visit a home",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3557511900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I don't inform the email",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 731655099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I'm redirected to the registration page with success",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1855286700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 703272699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@emailForm",
+            "line": 3
+          },
+          {
+            "name": "@emptyEmail",
+            "line": 19
+          }
+        ],
         "type": "scenario"
       }
     ],
     "id": "access-the-index-page",
-    "line": 1,
+    "line": 4,
     "keyword": "Feature",
     "name": "Access the index page",
-    "tags": [],
+    "tags": [
+      {
+        "name": "@emailForm",
+        "line": 3
+      }
+    ],
     "uri": "tests\\features\\home.feature"
   }
 ]

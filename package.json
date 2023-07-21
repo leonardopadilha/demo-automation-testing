@@ -6,6 +6,7 @@
   "scripts": {
     "test": "cucumber-js --publish-quiet --require cucumber.js --require tests/step-definitions/**/*.js --format json:./report/cucumber_report.json  --format @cucumber/pretty-formatter tests/features/**/*.feature",
     "tags": "cucumber-js --publish-quiet --require cucumber.js --require tests/step-definitions/**/*.js --format json:./report/cucumber_report.json --format @cucumber/pretty-formatter tests/features/**/*.feature -- -t",
+    "tests": "cucumber-js --require cucumber.js --require tests/step-definitions/**/*.js -f json:cucumber_report.json --publish-quiet",
     "report": "node reporter.js"
   },
   "keywords": [],
