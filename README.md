@@ -1,4 +1,4 @@
-# Automation web with Playwright and gitHub actions
+# Automation web with Playwright
 
 Base site: [Automation Demo Site](https://demo.automationtesting.in/)
 
