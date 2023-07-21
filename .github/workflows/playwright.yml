@@ -20,7 +20,7 @@ jobs:
       run: npx playwright install --with-deps
     - name: Run Playwright tests
       run: npm run test
-    -  name: Install cucumber
+    - name: Install cucumber
       run: npm i @cucumber/cucumber
     - uses: actions/upload-artifact@v3
       if: always()
