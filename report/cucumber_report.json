@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 825501199
+              "duration": 663135300
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4025000200
+              "duration": 4038711399
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 779923699
+              "duration": 709862500
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2291361499
+              "duration": 1837391199
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 561824900
+              "duration": 576404300
             }
           }
         ],
@@ -89,7 +89,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1156985299
+              "duration": 670360599
             }
           },
           {
@@ -102,7 +102,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3515933899
+              "duration": 3566401499
             }
           },
           {
@@ -115,7 +115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 642997099
+              "duration": 705998900
             }
           },
           {
@@ -128,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2507541800
+              "duration": 1935595900
             }
           },
           {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 513746099
+              "duration": 534827099
             }
           }
         ],
