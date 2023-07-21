@@ -1,0 +1,24 @@
+{
+  "name": "demo-automation-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --publish-quiet --require cucumber.js --require tests/step-definitions/**/*.js --format json:./report/cucumber_report.json  --format @cucumber/pretty-formatter tests/features/**/*.feature",
+    "tags": "cucumber-js --publish-quiet --require cucumber.js --require tests/step-definitions/**/*.js --format json:./report/cucumber_report.json --format @cucumber/pretty-formatter tests/features/**/*.feature -- -t",
+    "report": "node reporter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.36.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.3.0",
+    "@cucumber/pretty-formatter": "^1.0.0",
+    "cucumber-html-reporter": "^7.1.1",
+    "dotenv": "^16.3.1"
+  }
+}

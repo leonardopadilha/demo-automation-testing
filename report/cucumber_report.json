@@ -1,0 +1,168 @@
+[
+  {
+    "description": "    As a user\n    I want to inform my email",
+    "elements": [
+      {
+        "description": "",
+        "id": "access-the-index-page;fill-email",
+        "keyword": "Scenario Outline",
+        "line": 17,
+        "name": "Fill email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 871401799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I visit a home page",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4176254199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I fill the email form with \"teste@teste.com.br\"",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 796510599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I'm redirected to the registration page",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1825191699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 490297500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@emailForm",
+            "line": 3
+          },
+          {
+            "name": "@fillEmail",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "access-the-index-page;empty-email",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Empty email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 976161399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I visit a home",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4004633399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I don't inform the email",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 682435599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I'm redirected to the registration page with success",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1984392099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 556250199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@emailForm",
+            "line": 3
+          },
+          {
+            "name": "@emptyEmail",
+            "line": 19
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "access-the-index-page",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Access the index page",
+    "tags": [
+      {
+        "name": "@emailForm",
+        "line": 3
+      }
+    ],
+    "uri": "tests\\features\\home.feature"
+  }
+]

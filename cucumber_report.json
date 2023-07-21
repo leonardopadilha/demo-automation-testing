@@ -1,0 +1,79 @@
+[
+  {
+    "description": "    As a user\n    I want to inform my email",
+    "elements": [
+      {
+        "description": "",
+        "id": "access-the-index-page;fill-email",
+        "keyword": "Scenario Outline",
+        "line": 13,
+        "name": "Fill email",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 813752499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I visit a home page",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4013269500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I fill the email form with \"teste@teste.com.br\"",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 752235299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I'm redirected to the registration page",
+            "match": {
+              "location": "tests\\step-definitions\\homeContext.step.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1726277000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 663195899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "access-the-index-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Access the index page",
+    "tags": [],
+    "uri": "tests\\features\\home.feature"
+  }
+]
