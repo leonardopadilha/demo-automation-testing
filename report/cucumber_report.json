@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 788957900
+              "duration": 760843600
             }
           },
           {
@@ -26,8 +26,9 @@
               "location": "tests\\step-definitions\\homeContext.step.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 4161025299
+              "status": "failed",
+              "duration": 5013058200,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Users\\user\\Documents\\Cursos\\Mobile\\automacao\\udemy\\qazando\\automacao-playwright-js\\estudos-pessoais\\demo-automation-testing\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:559:17)\n    at processTimers (node:internal/timers:502:7)"
             }
           },
           {
@@ -39,8 +40,8 @@
               "location": "tests\\step-definitions\\homeContext.step.js:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 851908699
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -52,8 +53,8 @@
               "location": "tests\\step-definitions\\homeContext.step.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1776188199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -61,7 +62,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 622939499
+              "duration": 123033999
             }
           }
         ],
@@ -89,7 +90,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 588429799
+              "duration": 771047299
             }
           },
           {
@@ -102,7 +103,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3969121100
+              "duration": 4001374599
             }
           },
           {
@@ -115,7 +116,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 704343100
+              "duration": 902777700
             }
           },
           {
@@ -128,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1380114399
+              "duration": 2392323600
             }
           },
           {
@@ -136,7 +137,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 440014400
+              "duration": 377826599
             }
           }
         ],
