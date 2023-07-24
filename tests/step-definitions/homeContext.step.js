@@ -1,5 +1,4 @@
 const {Given, When, Then} = require('@cucumber/cucumber');
-const {expect } = require('@playwright/test')
 
 const HomePage = require("../pages/home-page")
 const RegisterPage = require("../pages/register-page")

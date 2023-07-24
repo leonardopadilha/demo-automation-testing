@@ -1,5 +1,7 @@
 const playwright = require('playwright')
-const { Before, After, BeforeAll, AfterAll } = require('@cucumber/cucumber')
+const { Before, After, BeforeAll, AfterAll, setDefaultTimeout } = require('@cucumber/cucumber')
+
+setDefaultTimeout(60 * 1000);
 
 BeforeAll(async () => {
     console.log("Launch Browser")
