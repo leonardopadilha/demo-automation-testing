@@ -7,9 +7,9 @@ module.exports = {
     PHONE: '#basicBootstrapForm > div:nth-child(4) > div > input',
     GENDER_MALE: '.form-group:nth-child(5) > div > label:nth-child(1)',
     GENDER_FEMALE:  '.form-group:nth-child(5) > div > label:nth-child(2)',
-    /* HOBBIES: 
-    LANGUAGES:
-    SKILLS:
+    HOBBIES: `#checkbox`,
+    LANGUAGES: '#msdd',
+    /*SKILLS:
     COUNTRY:
     SELECT_COUNTRY:
     DATE_OF_BIRTH:

@@ -7,15 +7,12 @@ Feature: Registration
     I want to inform my data
 
     @clearForm
-    Scenario Outline: Clear registration form
-        Given I fill in the fields "<firstName>", "<lastName>"
+    Scenario: Clear registration form
+        Given I fill in the fields
         When I click on refresh
         Then the form is cleared successfully
 
-        Examples:
-        |firstName  |lastName   |
-        |Nelson     |Eduardo    |
-
+    
         #Examples:
         #"<firstName>", "<lastName>", "<address>", "<emailAddress>", "<phone>", "<gender>", "<hobbies>", "<languages>", "<skills>", "<selectCountry>", "<yearOfBirth>", "<monthOfBirth>", "<dateOfBirth>", "<password>", "<confirmPassword>"
         #|firstName  |lastName   |address    |emailAddress       |phone          |gender |hobbies    |languages  |skills |selectCountry  |yearOfBirth    |monthOfBirth  |dateOfBith      |password   |confirmPassword    |
