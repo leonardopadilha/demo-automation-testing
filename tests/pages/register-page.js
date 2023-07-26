@@ -52,6 +52,18 @@ module.exports = class RegisterPage extends BasePage {
         }
     }
 
+    async selectLanguages() {
+        await page.selectOption(this.$$s.SELECT_LANGUAGE, 'English')
+    }
+
+    async selectSkills() {
+        await page.selectOption(this.$$s.SKILLS, 'APIs')
+    }
+
+    async scroll() {
+        await page.mouse.down(0, -550)
+    }
+
     async fillUser() {
         await this.fillFirstName()
         await this.fillLastName()
@@ -60,5 +72,10 @@ module.exports = class RegisterPage extends BasePage {
         await this.fillPhone()
         await this.clickGender()
         await this.clickHobbie()
+
+        await this.scroll()
+
+        await this.selectSkills()
+        await page.pause()
     }
 }

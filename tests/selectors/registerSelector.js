@@ -8,9 +8,10 @@ module.exports = {
     GENDER_MALE: '.form-group:nth-child(5) > div > label:nth-child(1)',
     GENDER_FEMALE:  '.form-group:nth-child(5) > div > label:nth-child(2)',
     HOBBIES: `#checkbox`,
-    LANGUAGES: '#msdd',
-    /*SKILLS:
-    COUNTRY:
+    SELECT_LANGUAGE: 'multi-select > div:nth-child(2)',
+    LANGUAGES: '[class*="ui-corner-all"] > li:nth-child(8)',
+    SKILLS: '#Skills'
+    /*COUNTRY:
     SELECT_COUNTRY:
     DATE_OF_BIRTH:
     MONTH_OF_BIRTH:

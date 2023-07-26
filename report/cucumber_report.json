@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1122347000
+              "duration": 812542600
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 11,
             "name": "I visit a home page",
             "match": {
-              "location": "tests\\step-definitions\\homeContext.step.js:10"
+              "location": "tests\\step-definitions\\homeContext.step.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 4476420700
+              "duration": 4197169399
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 12,
             "name": "I fill the email form with \"teste@teste.com.br\"",
             "match": {
-              "location": "tests\\step-definitions\\homeContext.step.js:14"
+              "location": "tests\\step-definitions\\homeContext.step.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 772170799
+              "duration": 897664299
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 13,
             "name": "I'm redirected to the registration page",
             "match": {
-              "location": "tests\\step-definitions\\homeContext.step.js:19"
+              "location": "tests\\step-definitions\\homeContext.step.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 1889651499
+              "duration": 2330981600
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 580293099
+              "duration": 589794800
             }
           }
         ],
@@ -89,7 +89,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1091545799
+              "duration": 707074800
             }
           },
           {
@@ -98,11 +98,11 @@
             "line": 21,
             "name": "I visit a home",
             "match": {
-              "location": "tests\\step-definitions\\homeContext.step.js:23"
+              "location": "tests\\step-definitions\\homeContext.step.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 4337236200
+              "duration": 4060703799
             }
           },
           {
@@ -111,11 +111,11 @@
             "line": 22,
             "name": "I don't inform the email",
             "match": {
-              "location": "tests\\step-definitions\\homeContext.step.js:27"
+              "location": "tests\\step-definitions\\homeContext.step.js:26"
             },
             "result": {
               "status": "passed",
-              "duration": 666889299
+              "duration": 851310699
             }
           },
           {
@@ -124,11 +124,11 @@
             "line": 23,
             "name": "I'm redirected to the registration page with success",
             "match": {
-              "location": "tests\\step-definitions\\homeContext.step.js:31"
+              "location": "tests\\step-definitions\\homeContext.step.js:30"
             },
             "result": {
               "status": "passed",
-              "duration": 1829883000
+              "duration": 2151264300
             }
           },
           {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 537326699
+              "duration": 482570500
             }
           }
         ],
@@ -164,5 +164,96 @@
       }
     ],
     "uri": "tests\\features\\home.feature"
+  },
+  {
+    "description": "    As a user\n    I want to inform my data",
+    "elements": [
+      {
+        "description": "",
+        "id": "registration;clear-registration-form",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Clear registration form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 518431600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I fill in the fields",
+            "match": {
+              "location": "tests\\step-definitions\\registerContext.step.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49162609499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click on refresh",
+            "match": {
+              "location": "tests\\step-definitions\\registerContext.step.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 438400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "the form is cleared successfully",
+            "match": {
+              "location": "tests\\step-definitions\\registerContext.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 729199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17665599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registrationForm",
+            "line": 3
+          },
+          {
+            "name": "@clearForm",
+            "line": 9
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "registration",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Registration",
+    "tags": [
+      {
+        "name": "@registrationForm",
+        "line": 3
+      }
+    ],
+    "uri": "tests\\features\\register.feature"
   }
 ]
