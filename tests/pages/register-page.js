@@ -61,7 +61,19 @@ module.exports = class RegisterPage extends BasePage {
     }
 
     async scroll() {
-        await page.mouse.down(0, -550)
+        await page.locator(this.$$s.BTN_REFRESH).scrollIntoViewIfNeeded()
+    }
+
+    async selectCountry() {
+        await page.click(this.$$s.SELECT_COUNTRY)
+        await page.type(this.$$s.INPUT_COUNTRY, 'Ne')
+        await page.click(this.$$s.SELECT_NETHERLANDS)
+    }
+
+    async SelectDateBirth() {
+        await page.selectOption(this.$$s.YEAR_OF_BIRTH, '1970')
+        await page.selectOption(this.$$s.MONTH_OF_BIRTH, 'October')
+        await page.selectOption(this.$$s.DAY_OF_BIRTH, '15')
     }
 
     async fillUser() {
@@ -76,6 +88,8 @@ module.exports = class RegisterPage extends BasePage {
         await this.scroll()
 
         await this.selectSkills()
+        await this.selectCountry()
+        await this.SelectDateBirth()
         await page.pause()
     }
 }

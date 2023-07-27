@@ -10,12 +10,14 @@ module.exports = {
     HOBBIES: `#checkbox`,
     SELECT_LANGUAGE: 'multi-select > div:nth-child(2)',
     LANGUAGES: '[class*="ui-corner-all"] > li:nth-child(8)',
-    SKILLS: '#Skills'
-    /*COUNTRY:
-    SELECT_COUNTRY:
-    DATE_OF_BIRTH:
-    MONTH_OF_BIRTH:
-    YEAR_OF_BIRTH:
-    PASSWORD:
+    SKILLS: '#Skills',
+    SELECT_COUNTRY: '.selection:nth-child(1) > span',
+    INPUT_COUNTRY: 'span[class*="below"] span input',
+    SELECT_NETHERLANDS: '#select2-country-results li:first-child',
+    DAY_OF_BIRTH: '#daybox',
+    MONTH_OF_BIRTH: '[placeholder="Month"]',
+    YEAR_OF_BIRTH: '#yearbox',
+    /*PASSWORD:
     CONFIRM_PASSWORD: */
+    BTN_REFRESH: '#Button1'
 }
