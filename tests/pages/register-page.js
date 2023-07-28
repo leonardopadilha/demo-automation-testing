@@ -6,6 +6,8 @@ const { user } = require('../fixtures/person')
 require('dotenv').config()
 const REGISTER_URL = process.env.REGISTER_URL
 
+const PASSWORD = process.env.PASSWORD
+
 module.exports = class RegisterPage extends BasePage {
 
     $$s = this.$s.registerSelectors
@@ -52,8 +54,8 @@ module.exports = class RegisterPage extends BasePage {
         }
     }
 
-    async selectLanguages() {
-        await page.selectOption(this.$$s.SELECT_LANGUAGE, 'English')
+    async clickBtnRefresh() {
+        await page.click(this.$$s.BTN_REFRESH)
     }
 
     async selectSkills() {
@@ -76,6 +78,15 @@ module.exports = class RegisterPage extends BasePage {
         await page.selectOption(this.$$s.DAY_OF_BIRTH, '15')
     }
 
+    async informPassword() {
+        await page.type(this.$$s.PASSWORD, PASSWORD)
+        await page.type(this.$$s.CONFIRM_PASSWORD, PASSWORD)
+    }
+
+    async stayOnSamePage() {
+        return this.valiteTitle()
+    }
+
     async fillUser() {
         await this.fillFirstName()
         await this.fillLastName()
@@ -90,6 +101,6 @@ module.exports = class RegisterPage extends BasePage {
         await this.selectSkills()
         await this.selectCountry()
         await this.SelectDateBirth()
-        await page.pause()
+        await this.informPassword()
     }
 }

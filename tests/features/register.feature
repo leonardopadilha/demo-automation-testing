@@ -10,7 +10,7 @@ Feature: Registration
     Scenario: Clear registration form
         Given I fill in the fields
         When I click on refresh
-        Then the form is cleared successfully
+        Then Then I stay on the same page
 
     
         #Examples:

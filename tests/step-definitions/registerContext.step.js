@@ -10,10 +10,10 @@ Given('I fill in the fields', async function () {
 })
 
 When ("I click on refresh", async function () {
-
+    await registerPage.clickBtnRefresh()
 })
 
-Then("the form is cleared successfully", async function () {
-
+Then("Then I stay on the same page", async function () {
+    await registerPage.stayOnSamePage()
 })
 

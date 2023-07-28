@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 583869300
+              "duration": 748613199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4022067800
+              "duration": 4412634400
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 712465499
+              "duration": 874785300
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1672648299
+              "duration": 2364710900
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 547115499
+              "duration": 598694000
             }
           }
         ],
@@ -89,7 +89,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 619497200
+              "duration": 562088899
             }
           },
           {
@@ -102,7 +102,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4019579999
+              "duration": 4181617900
             }
           },
           {
@@ -115,7 +115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 691647599
+              "duration": 761636500
             }
           },
           {
@@ -128,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1689788599
+              "duration": 1704710799
             }
           },
           {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 408741899
+              "duration": 435710200
             }
           }
         ],
@@ -180,7 +180,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 483576999
+              "duration": 469766599
             }
           },
           {
@@ -193,7 +193,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29924821399
+              "duration": 8985532900
             }
           },
           {
@@ -206,20 +206,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 325099
+              "duration": 649075799
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "the form is cleared successfully",
+            "name": "Then I stay on the same page",
             "match": {
               "location": "tests\\step-definitions\\registerContext.step.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 495399
+              "duration": 272212199
             }
           },
           {
@@ -227,7 +227,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 234555299
+              "duration": 424607199
             }
           }
         ],
