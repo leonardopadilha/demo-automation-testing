@@ -13,7 +13,16 @@ When ("I click on refresh", async function () {
     await registerPage.clickBtnRefresh()
 })
 
-Then("Then I stay on the same page", async function () {
+Then("I stay on the same", async function () {
     await registerPage.stayOnSamePage()
+})
+
+Given ("I fill the form without name", async function () {
+    await registerPage.visitRegisterPage()
+    await registerPage.fillUserWithoutName()
+})
+
+When("I click on submit", async function () {
+    await registerPage.clickBtnSubmit()
 })
 

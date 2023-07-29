@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 748613199
+              "duration": 873801800
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4412634400
+              "duration": 4245831499
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 874785300
+              "duration": 789016900
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2364710900
+              "duration": 1739054400
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 598694000
+              "duration": 709227499
             }
           }
         ],
@@ -89,7 +89,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 562088899
+              "duration": 1228612900
             }
           },
           {
@@ -102,7 +102,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4181617900
+              "duration": 4022006299
             }
           },
           {
@@ -115,7 +115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 761636500
+              "duration": 691237900
             }
           },
           {
@@ -128,7 +128,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1704710799
+              "duration": 1733370000
             }
           },
           {
@@ -136,7 +136,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 435710200
+              "duration": 511136700
             }
           }
         ],
@@ -180,7 +180,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 469766599
+              "duration": 516438400
             }
           },
           {
@@ -193,7 +193,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8985532900
+              "duration": 10744299199
             }
           },
           {
@@ -206,20 +206,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 649075799
+              "duration": 686626200
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 13,
-            "name": "Then I stay on the same page",
+            "name": "I stay on the same",
             "match": {
               "location": "tests\\step-definitions\\registerContext.step.js:16"
             },
             "result": {
               "status": "passed",
-              "duration": 272212199
+              "duration": 392801000
             }
           },
           {
@@ -227,7 +227,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 424607199
+              "duration": 530330199
             }
           }
         ],
@@ -239,6 +239,81 @@
           {
             "name": "@clearForm",
             "line": 9
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "registration;form-without-name",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "form without name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1165533400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "I fill the form without name",
+            "match": {
+              "location": "tests\\step-definitions\\registerContext.step.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9052928900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click on submit",
+            "match": {
+              "location": "tests\\step-definitions\\registerContext.step.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142553800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "I stay on the same",
+            "match": {
+              "location": "tests\\step-definitions\\registerContext.step.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49563600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 361302500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@registrationForm",
+            "line": 3
+          },
+          {
+            "name": "@formWithouName",
+            "line": 16
           }
         ],
         "type": "scenario"

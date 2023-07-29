@@ -58,6 +58,10 @@ module.exports = class RegisterPage extends BasePage {
         await page.click(this.$$s.BTN_REFRESH)
     }
 
+    async clickBtnSubmit() {
+        await page.click(this.$$s.BTN_SUBMIT)
+    }
+
     async selectSkills() {
         await page.selectOption(this.$$s.SKILLS, 'APIs')
     }
@@ -87,9 +91,30 @@ module.exports = class RegisterPage extends BasePage {
         return this.valiteTitle()
     }
 
+    async getErrorMessage() {
+        /* const element = await page.evaluate(
+            () => document.querySelector('#section .form-group:first-child label').innerHTML
+        ) */
+    }
+
     async fillUser() {
         await this.fillFirstName()
         await this.fillLastName()
+        await this.fillAddress()
+        await this.fillEmailAddress()
+        await this.fillPhone()
+        await this.clickGender()
+        await this.clickHobbie()
+
+        await this.scroll()
+
+        await this.selectSkills()
+        await this.selectCountry()
+        await this.SelectDateBirth()
+        await this.informPassword()
+    }
+
+    async fillUserWithoutName() {
         await this.fillAddress()
         await this.fillEmailAddress()
         await this.fillPhone()

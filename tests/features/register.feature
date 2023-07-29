@@ -10,13 +10,14 @@ Feature: Registration
     Scenario: Clear registration form
         Given I fill in the fields
         When I click on refresh
-        Then Then I stay on the same page
+        Then I stay on the same 
+        
 
-    
-        #Examples:
-        #"<firstName>", "<lastName>", "<address>", "<emailAddress>", "<phone>", "<gender>", "<hobbies>", "<languages>", "<skills>", "<selectCountry>", "<yearOfBirth>", "<monthOfBirth>", "<dateOfBirth>", "<password>", "<confirmPassword>"
-        #|firstName  |lastName   |address    |emailAddress       |phone          |gender |hobbies    |languages  |skills |selectCountry  |yearOfBirth    |monthOfBirth  |dateOfBith      |password   |confirmPassword    |
-        #|Nelson     |Eduardo    |rua teste  |teste@teste.com    |99999999999    |m      |Cricket    |english    |APIs   |New zealand    |1963           |December      |21              |xpto       |xpto               |
+    @formWithouName
+    Scenario: form without name
+        Given I fill the form without name
+        When I click on submit
+        Then I stay on the same
 
 
 
